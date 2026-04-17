@@ -168,11 +168,6 @@ SELECT title, duration
 FROM netflix
 WHERE type = 'Movie';
 
-
--- ==============================
--- 4. INTERMEDIATE ANALYSIS
--- ==============================
-
 -- New vs Old content
 SELECT 
     COUNT(*) AS total,
