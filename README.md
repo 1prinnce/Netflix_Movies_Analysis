@@ -192,11 +192,6 @@ GROUP BY director
 ORDER BY COUNT(*) DESC
 LIMIT 10;
 
-
--- ==============================
--- 5. ADVANCED ANALYSIS
--- ==============================
-
 -- Year-wise Movies vs TV Shows
 SELECT release_year, type, COUNT(*) AS total
 FROM netflix
